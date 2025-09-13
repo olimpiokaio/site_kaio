@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>Olimpio.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Fjalla+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="font.css" />
+    <link rel="stylesheet" href="main.css" />
+    <!-- Animate On Scroll CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="main-header" data-aos="fade-down" data-aos-delay="200" data-aos-duration="800">
+        <!-- <div class="main-header__separator"></div> -->
+        <div class="main-header__content">
+            <div class="main-logo">
+                <h1>Olimpio <i class="las la-coffee"></i></h1>
+            </div>
+            <div class="header-actions">
+                <button class="hamburger" aria-label="Abrir menu" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="hamburger__bar"></span>
+                    <span class="hamburger__bar"></span>
+                    <span class="hamburger__bar"></span>
+                </button>
+                <!-- Mobile language toggle (visible only on mobile) -->
+                <button class="lang-toggle lang-toggle--mobile kanit-regular" aria-label="Toggle language" title="Toggle language">EN</button>
+            </div>
+            <nav class="main-nav" id="primary-navigation">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item kanit-regular">
+                        <a href="#" id="jobsLink"><i class="las la-robot"></i> curriculum</a>
+                    </li>
+                    <li class="main-nav__item kanit-regular">
+                        <a href="https://github.com/olimpiokaio" target="_blank" rel="noopener"><i class="lab la-github-alt"></i> github</a>
+                    </li>
+                        <li class="main-nav__item instagran kanit-regular">
+                        <a href="https://www.instagram.com/olkaioba/" target="_blank" rel="noopener"><i class="lab la-instagram"></i> Instagram</a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--cta kanit-regular">
+                        <a href="https://www.linkedin.com/in/olimpio-silva/" target="_blank"><i class="lab la-linkedin"></i> Linkedin</a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--lang">
+                        <button class="lang-toggle lang-toggle--desktop kanit-regular btn-toggle" aria-label="Toggle language" title="Toggle language">EN</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main__content">
+        <div class="main__apresentation" data-aos="fade-up" data-aos-duration="900" data-aos-offset="120">
+            <div>
+                <h1 class="kanit-bold" data-i18n="hero.hi">Hi! I Am </h1> <span class="kanit-semibold dev-style">DEV</span>
+                <br/>
+                <h1 class="kanit-bold">Olimpio Kaio</h1>
+            </div>
+            <div class="main-apresentation__info kanit-medium" data-aos="fade-right" data-aos-delay="150">
+                <p data-i18n-html="hero.desc">Developing software for over <span class="kanit-bold"> 5 years</span><br/> in large projects</p>
+            </div>
+            <div class="main-apresentation__buttons" data-aos="zoom-in" data-aos-delay="300">
+                <a class="button button-here-me" href="./arquivos/curriculo2025.pdf" download title="Baixar currículo 2025" data-i18n="hero.hire">Hire Me</a>
+                <button type="button" class="button button-projects" data-i18n="hero.projects">My Projects <i class="las la-level-up-alt"></i></button>
+            </div>
+            <div class="main-apresentation__clients" data-aos="flip-left" data-aos-delay="400" data-aos-duration="900">
+                <h4>+3</h4>
+                <p data-i18n="hero.clientsText">Big clients on work</p>
+            </div>
+            <div class="main-apresentation__contact" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-out-cubic">
+                <div class="content-contact">
+                    <h4>+5</h4>
+                    <p data-i18n="hero.years">Years of development</p>
+                </div>
+                <div class="content-contact">
+                    <h4 data-i18n="hero.contact">Contact</h4>
+                    <p>olimpiocode@gmail.com</p>
+                </div>
+            </div>
+            <div class="content-footer" data-aos="fade" data-aos-delay="650">
+                <div class="footer-info">
+                    <span data-i18n="footer.by">Developed by Olimpio Kaio</span><br/>
+                    <span data-i18n="footer.copyright">© 2025 Olimpio, Inc. All rights reserved</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main__paper" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+            <div class="description__paper" data-aos="fade-right" data-aos-delay="150">
+                <div class="description-paper__title">
+                    <p class="kanit-medium" id="paperTitle" data-i18n-html="paper.title">
+                        <span class="kanit-extrabold">Create</span> your idea <span class="kanit-extrabold">with</span> me,<br/>
+                        I <span class="kanit-extrabold">Love</span>
+                        doing it 
+                    </p>
+                </div>
+            </div>
+            <div class="content-image" data-aos="zoom-in-up" data-aos-delay="250">
+                <img src="./images/olk_2.png" alt="Olimpio Kaio">
+            </div>
+        </div>
+        </main>
+
+    <!-- Projects Modal Carousel -->
+    <div class="projects-modal" id="projectsModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="projectsModalTitle">
+      <div class="projects-modal__backdrop" data-close="modal"></div>
+      <div class="projects-modal__dialog" role="document">
+        <button class="projects-modal__close" aria-label="Fechar" title="Fechar" data-close="modal" data-i18n-aria-label="modal.close" data-i18n-title="modal.close"><i class="las la-times"></i></button>
+        <h2 id="projectsModalTitle" class="projects-modal__title kanit-bold" data-i18n="projects.title"><i class="las la-folder-open"></i> My Projects</h2>
+        <div class="carousel" data-index="0" aria-roledescription="carousel" data-aos="fade-up" data-aos-duration="600">
+          <button class="carousel__nav carousel__nav--prev" aria-label="Anterior" data-i18n-aria-label="carousel.prev"><i class="las la-angle-left"></i></button>
+          <div class="carousel__viewport">
+            <div class="carousel__track">
+                <!-- Card 1 -->
+              <article class="project-card" aria-roledescription="slide" aria-label="3 de 3" data-aos="zoom-in" data-aos-delay="250">
+                <div class="project-card__icon">
+                    <img style="background: linear-gradient(to top, rgba(209, 0, 80, 0.5) 10%, rgba(22,60,191,0.9))"
+                        src="https://olimpiokaio.github.io/MBK/mbk-icon.png"
+                        alt="mbk"
+                        width="60"
+                        height="60">
+                </div>
+                <h3 class="project-card__name kanit-semibold">MBK</h3>
+                <p class="project-card__desc" data-i18n-html="projects.card1.desc">Jogue streetball e conecte-se com quem vive o <strong>basquete</strong> de rua.</p>
+                <a class="project-card__btn" href="https://olimpiokaio.github.io/MBK/" target="_blank" rel="noopener" data-i18n="projects.card1.button">Ver projeto</a>
+              </article>
+<!--              &lt;!&ndash; Card 2 &ndash;&gt;-->
+<!--              <article class="project-card" aria-roledescription="slide" aria-label="1 de 3" data-aos="zoom-in" data-aos-delay="50">-->
+<!--                <div class="project-card__icon"><i class="lab la-github"></i></div>-->
+<!--                <h3 class="project-card__name kanit-semibold">Portfolio Minimal</h3>-->
+<!--                <p class="project-card__desc">Um portfólio responsivo e minimalista, com animações suaves e foco em performance.</p>-->
+<!--                <a class="project-card__btn" href="https://example.com/portfolio" target="_blank" rel="noopener">Ver projeto</a>-->
+<!--              </article>-->
+<!--              &lt;!&ndash; Card 3 &ndash;&gt;-->
+<!--              <article class="project-card" aria-roledescription="slide" aria-label="2 de 3" data-aos="zoom-in" data-aos-delay="150">-->
+<!--                <div class="project-card__icon"><i class="las la-bolt"></i></div>-->
+<!--                <h3 class="project-card__name kanit-semibold">API Fast Notes</h3>-->
+<!--                <p class="project-card__desc">API de notas simples com autenticação JWT e documentação Swagger.</p>-->
+<!--                <a class="project-card__btn" href="https://example.com/api-notes" target="_blank" rel="noopener">Ver projeto</a>-->
+<!--              </article>-->
+            </div>
+          </div>
+          <button class="carousel__nav carousel__nav--next" aria-label="Próximo" data-i18n-aria-label="carousel.next"><i class="las la-angle-right"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jobs Modal (Resume) -->
+    <div class="projects-modal" id="jobsModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="jobsModalTitle">
+      <div class="projects-modal__backdrop" data-close="modal"></div>
+      <div class="projects-modal__dialog" role="document">
+        <button class="projects-modal__close" aria-label="Fechar" title="Fechar" data-close="modal" data-i18n-aria-label="modal.close" data-i18n-title="modal.close"><i class="las la-times"></i></button>
+        <h2 id="jobsModalTitle" class="projects-modal__title kanit-bold" data-i18n="jobs.title"><i class="las la-robot"></i> Jobs In</h2>
+        <div class="resume-content" id="resumeContent" data-aos="fade-up" data-aos-duration="600">
+          <section class="kanit-medium" style="margin-bottom:16px;">
+            <h3 class="kanit-semibold" style="margin:0 0 6px 0; font-size:1.2rem;">Olimpio Kaio Rodrigues Silva</h3>
+            <p style="opacity:.9; margin:0 0 10px 0;">Desenvolvedor Java</p>
+            <p style="opacity:.9; line-height:1.6;">Desenvolvedor com mais de 5 anos de experiência em projetos de grande porte, atuando em backend com Java (8/11), Spring e integrações, além de vivência com front-end (Angular/React), pipelines CI/CD e bancos de dados relacionais.</p>
+          </section>
+
+          <section style="margin-bottom:16px;">
+            <h4 class="kanit-semibold" style="margin:0 0 8px 0;">Formação Acadêmica</h4>
+            <ul style="margin:0 0 0 18px; line-height:1.6;">
+              <li>2017 - 2019 Concluso: Análise e Desenvolvimento de Sistemas | Brasília | DF — Universidade IESB</li>
+            </ul>
+          </section>
+
+          <section class="resume-section resume-accordion" style="margin-bottom:16px;">
+            <h4 class="kanit-semibold" style="margin:0 0 8px 0;">Experiências Profissionais</h4>
+
+            <details open>
+              <summary>
+                <span class="resume-role">Engesoftware S.A (Banco Caixa) — Desenvolvedor Java</span>
+                <span class="resume-period">mai/2025</span>
+              </summary>
+              <ul class="resume-list">
+                <li>Desenvolvimento de sistemas em Java 8 e Angular</li>
+                <li>EJB</li>
+                <li>Testes Unitários/integração com JUnit</li>
+                <li>Azure DevOps, Sonar</li>
+                <li>Oracle DB</li>
+              </ul>
+            </details>
+
+            <details>
+              <summary>
+                <span class="resume-role">ACT digital (Sicoob) — Desenvolvedor Java</span>
+                <span class="resume-period">ago/2021 - jan/2025</span>
+              </summary>
+              <ul class="resume-list">
+                <li>Desenvolvimento de sistemas em Java 11</li>
+                <li>JasperReports</li>
+                <li>Jira, Git, Jenkins, Nexus, Sonar</li>
+                <li>Spring Boot, Spring Batch, Spring Data, Spring Cloud</li>
+                <li>Testes Unitários/integração com JUnit</li>
+                <li>Oracle DB</li>
+              </ul>
+            </details>
+
+            <details>
+              <summary>
+                <span class="resume-role">Engesoftware S.A (Banco do Brasil) — Desenvolvedor Java</span>
+                <span class="resume-period">ago/2020 - ago/2021</span>
+              </summary>
+              <ul class="resume-list">
+                <li>Desenvolvimento de sistemas em Java 11 e React</li>
+                <li>Spring Boot, Spring Data, Spring Security</li>
+                <li>Testes Unitários/integração com JUnit</li>
+                <li>AWS</li>
+              </ul>
+            </details>
+
+            <details>
+              <summary>
+                <span class="resume-role">Fábrica De Software Bay Area — Analista e Desenvolvedor Java</span>
+                <span class="resume-period">ago/2017 - jun/2019</span>
+              </summary>
+              <ul class="resume-list">
+                <li>Desenvolvimento de sistemas em Java</li>
+                <li>React Native</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </details>
+          </section>
+
+          <section class="resume-section">
+            <h4 class="kanit-semibold" style="margin:0 0 8px 0;">Sólidos conhecimentos</h4>
+            <ul class="resume-skills">
+              <li class="chip">Spring Boot</li>
+              <li class="chip">Spring Data</li>
+              <li class="chip">Spring Security</li>
+              <li class="chip">Spring Batch</li>
+              <li class="chip">Spring WebFlux</li>
+              <li class="chip">R2DBC</li>
+              <li class="chip">HTML</li>
+              <li class="chip">CSS</li>
+              <li class="chip">JavaScript</li>
+              <li class="chip">TypeScript</li>
+              <li class="chip">Angular 2+</li>
+              <li class="chip">Angular 17+</li>
+              <li class="chip">Padrões de projeto</li>
+              <li class="chip">Jira</li>
+              <li class="chip">Git</li>
+              <li class="chip">Jenkins</li>
+              <li class="chip">Nexus</li>
+              <li class="chip">Docker</li>
+              <li class="chip">Kafka</li>
+              <li class="chip">JUnit (Testes)</li>
+              <li class="chip">Oracle DB</li>
+              <li class="chip">PostgreSQL</li>
+              <li class="chip">MySQL</li>
+              <li class="chip">FlywayDB</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+
+<!-- Animate On Scroll JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<!-- Site scripts -->
+<script src="./app.js" defer></script>
+</body>
+</html>

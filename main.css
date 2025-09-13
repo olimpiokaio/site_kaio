@@ -1,0 +1,798 @@
+html {
+    background-color: #242424;
+    color: white;
+}
+
+.main__content {
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* BLOCO */
+.main__apresentation {
+    padding-top: 8rem;
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    height: auto;
+}
+
+.main__apresentation h1 {
+    display: inline;
+    font-size: 4.8rem;
+    line-height: 1.2;
+    letter-spacing: -4px;
+    transform: scaleY(1.1);
+}
+
+.dev-style {
+    display: inline-block;
+    text-align: center;
+    background-color: #536dff;
+    padding: 10px 30px;
+    border-radius: 28px;
+    font-size: 2rem;
+    letter-spacing: -0.4px;
+    width: 9rem;
+    color: white;
+    position: relative;
+    bottom: 13px;
+    left: 14px;
+}
+
+.main-apresentation__info {
+    margin-top: 2rem;
+}
+
+.main-apresentation__info p {
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    line-height: 1.8;
+    letter-spacing: -0.4px;
+}
+
+.main-apresentation__buttons {
+    margin-top: 3rem;
+}
+
+.main-apresentation__buttons button {
+    cursor: pointer;
+    padding: 20px 44px;
+    font-size: 1.2rem;
+    letter-spacing: -0.4px;
+    font-weight: 600;
+    margin-right: 1rem;
+    border: none;
+}
+
+.button-here-me {
+    background-color: #ff4800;
+    color: white;
+}
+
+.button-projects {
+    color: white;
+    background-color: transparent;
+}
+
+.button-projects .la-level-up-alt {
+    font-size: 1.5rem;
+}
+
+.main-apresentation__clients {
+    margin-top: 3.8rem;
+    display: block;
+}
+
+.main-apresentation__clients h4 {
+    font-size: 2rem;
+}
+
+.main-apresentation__clients p {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.main-apresentation__contact {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: block;
+    width: 100%;
+}
+
+.main-apresentation__contact p {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.main-apresentation__contact h4 {
+    font-size: 2rem;
+}
+
+.content-contact {
+    display: inline-block;
+    margin-right: 7.3rem;
+}
+
+/* BLOCO */
+.main__paper {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    background-color: #E1D7C6;
+    color: #242424;
+    z-index: 1;
+    position: relative;
+}
+
+.description__paper {
+    padding-top: 6.4rem;
+    z-index: 2;
+}
+
+.description-paper__title {
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.description-paper__title p {
+    display: inline-block;
+    font-size: 1.8rem;
+    transform: scaleY(1.1);
+    word-spacing: 4px;
+}
+
+.content-image {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    margin-top: auto;
+    /* height: auto; */
+}
+
+.content-image img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 47rem;
+    object-fit: cover;
+}
+
+/* CONTAINER */
+.content-footer {
+    display: block;
+    width: calc(100dvw - 45.3dvw);
+    height: auto;
+    padding-top: 2rem;
+    border-top: 1px solid #e1d7c615;
+    background-color: #242424;
+    color: white;
+    margin: auto;
+    position: relative;
+    right: 10vw;
+    z-index: 0;
+}
+
+.footer-info {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-info span {
+    /* letter-spacing: -0.4px; */
+    line-height: 2;
+    font-weight: 500;
+}
+
+html {
+    background-color: #242424;
+    color: white;
+}
+
+.main__content {
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* BLOCO */
+.main__apresentation {
+    padding-top: 8rem;
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    height: auto;
+}
+
+.main__apresentation h1 {
+    display: inline;
+    font-size: 4.8rem;
+    line-height: 1.2;
+    letter-spacing: -4px;
+    transform: scaleY(1.1);
+}
+
+.dev-style {
+    display: inline-block;
+    text-align: center;
+    background-color: #536dff;
+    padding: 10px 30px;
+    border-radius: 28px;
+    font-size: 2rem;
+    letter-spacing: -0.4px;
+    width: 9rem;
+    color: white;
+    position: relative;
+    bottom: 13px;
+    left: 14px;
+}
+
+.main-apresentation__info {
+    margin-top: 2rem;
+}
+
+.main-apresentation__info p {
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    line-height: 1.8;
+    letter-spacing: -0.4px;
+}
+
+.main-apresentation__buttons {
+    margin-top: 3rem;
+}
+
+.main-apresentation__buttons button {
+    cursor: pointer;
+    padding: 20px 44px;
+    font-size: 1.2rem;
+    letter-spacing: -0.4px;
+    font-weight: 600;
+    margin-right: 1rem;
+    border: none;
+}
+
+.button-here-me {
+    background-color: #ff4800;
+    color: white;
+}
+
+.button-projects {
+    color: white;
+    background-color: transparent;
+}
+
+.button-projects .la-level-up-alt {
+    font-size: 1.5rem;
+}
+
+.main-apresentation__clients {
+    margin-top: 3.8rem;
+    display: block;
+}
+
+.main-apresentation__clients h4 {
+    font-size: 2rem;
+}
+
+.main-apresentation__clients p {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.main-apresentation__contact {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: block;
+    width: 100%;
+}
+
+.main-apresentation__contact p {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.main-apresentation__contact h4 {
+    font-size: 2rem;
+}
+
+.content-contact {
+    display: inline-block;
+    margin-right: 7.3rem;
+}
+
+/* BLOCO */
+.main__paper {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    background-color: #E1D7C6;
+    color: #242424;
+    z-index: 1;
+    position: relative;
+}
+
+.description__paper {
+    padding-top: 6.4rem;
+    z-index: 2;
+}
+
+/* CONTAINER */
+.content-footer {
+    display: block;
+    width: calc(100dvw - 45.3dvw);
+    height: auto;
+    padding-top: 2rem;
+    border-top: 1px solid #e1d7c615;
+    background-color: #242424;
+    color: white;
+    margin: auto;
+    position: relative;
+    right: 10vw;
+    z-index: 0;
+}
+
+.footer-info {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-info span {
+    /* letter-spacing: -0.4px; */
+    line-height: 2;
+    font-weight: 500;
+}
+
+/* ========================= */
+/* Mobile responsiveness */
+/* ========================= */
+@media (max-width: 768px) {
+    /* Use the image as a faint background behind the whole main area */
+    .main__content {
+        position: relative;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .main__content::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url('./images/olk.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.22; /* levemente visível */
+        pointer-events: none;
+        z-index: 0; /* behind content */
+        filter: grayscale(30%);
+    }
+
+    /* Stack sections and make them full width */
+    .main__apresentation,
+    .main__paper {
+        width: 100%;
+    }
+
+    .main__apresentation {
+        padding-top: 2rem;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        z-index: 1; /* above the background */
+    }
+
+    /* Place the description-paper__title at the very top of the page */
+    .description__paper {
+        padding-top: 0.8rem;
+    }
+
+    .description-paper__title {
+        width: 100%;
+        text-align: left;
+        padding: 1rem 5vw 0 5vw;
+        margin-bottom: 13rem;
+        order: -1; /* appear before other content in .main__paper */
+    }
+
+    /* Ensure the text appears visually at the start of the site */
+    .main__content {
+        gap: 0;
+    }
+
+    .main__paper {
+        order: -1; /* bring the paper section before the presentation on mobile */
+        background-color: transparent; /* let the background show through */
+        color: white; /* keep text readable over dark page bg */
+        z-index: 1;
+    }
+
+    .description-paper__title p {
+        font-size: 1.4rem;
+    }
+
+    /* Hide the inline image to avoid duplication; background handles it */
+    .content-image {
+        display: none;
+    }
+
+    /* Typography adjustments for small screens */
+    .main__apresentation h1 {
+        font-size: 2.4rem;
+        letter-spacing: -1px;
+    }
+
+    .dev-style {
+        font-size: 1rem;
+        padding: 8px 18px;
+        width: auto;
+        bottom: 6px;
+        left: 8px;
+    }
+
+    .main-apresentation__info p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .main-apresentation__buttons button {
+        padding: 14px 22px;
+        font-size: 1rem;
+        margin-right: 0.6rem;
+        margin-top: 0.6rem;
+    }
+
+    .main-apresentation__clients h4,
+    .main-apresentation__contact h4 {
+        font-size: 1.4rem;
+    }
+
+    .main-apresentation__clients p,
+    .main-apresentation__contact p {
+        font-size: 0.95rem;
+    }
+
+    /* Footer width/position cleanup on mobile */
+    .content-footer {
+        width: 100%;
+        right: 0;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
+
+/* Language toggle button */
+.lang-toggle {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.lang-toggle:hover { background: rgba(255,255,255,0.08); }
+
+/* Projects Modal and Carousel */
+.projects-modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    z-index: 1000
+}
+
+.projects-modal[aria-hidden="false"] {
+    display: block
+}
+
+.projects-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .6);
+    backdrop-filter: saturate(120%) blur(2px)
+}
+
+.projects-modal__dialog {
+    position: relative;
+    margin: 6vh auto;
+    padding: 24px;
+    max-width: 980px;
+    width: 92vw;
+    max-height: 88vh;
+    overflow: auto;
+    background: rgba(36, 36, 36, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.44);
+    box-shadow: 4px 20px 60px rgb(0, 0, 0), 0 0 0 1px rgba(255, 255, 255, .06) inset;
+    border-radius: 16px;
+    color: #fff
+}
+
+.projects-modal__title {
+    margin: 0 0 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.6rem
+}
+
+.projects-modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #fff;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    transition: transform .15s ease
+}
+
+.projects-modal__close:hover {
+    transform: scale(1.06)
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.carousel__nav {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    touch-action: manipulation
+}
+
+.carousel__viewport {
+    overflow: hidden;
+    flex: 1
+}
+
+.carousel__track {
+    display: flex;
+    transition: transform .4s ease;
+    gap: 24px;
+    justify-content: flex-start;
+    will-change: transform
+}
+
+.project-card {
+    flex: 0 0 auto;
+    width: 560px;
+    max-width: 90vw;
+    margin: 20px 0;
+    background: #000;
+    border: 2px solid #fff;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.62);
+    transform: translateZ(0);
+    font-family: inherit;
+}
+
+.project-card__icon {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 6px
+}
+
+.project-card__name {
+    margin: 4px 0 10px 0
+}
+
+.project-card__desc {
+    opacity: .9;
+    line-height: 1.6
+}
+
+.project-card__btn {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 10px 16px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background .2s ease
+}
+
+.project-card__btn:hover {
+    background: #151515
+}
+
+@media (max-width: 768px) {
+    .projects-modal__dialog {
+        margin: 2vh auto;
+        padding: 12px;
+        max-width: 94vw;
+        width: 95vw
+    }
+
+    .carousel {
+        gap: 6px
+    }
+
+    .carousel__nav {
+        width: 38px;
+        height: 38px
+    }
+
+    .carousel__track {
+        gap: 16px
+    }
+
+    .project-card {
+        width: 220px;
+        max-width: 88vw
+    }
+
+    .projects-modal__title {
+        font-size: 1.3rem
+    }
+
+    .projects-modal__close {
+        width: 38px;
+        height: 38px
+    }
+}
+
+
+
+/* Ensure anchor-based buttons have the same style as button elements */
+.main-apresentation__buttons a.button {
+    cursor: pointer;
+    padding: 20px 44px;
+    font-size: 1.2rem;
+    letter-spacing: -0.4px;
+    font-weight: 600;
+    margin-right: 1rem;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .main-apresentation__buttons a.button {
+        padding: 14px 22px;
+        font-size: 1rem;
+        margin-right: 0.6rem;
+        margin-top: 0.6rem;
+    }
+}
+
+/* Resume modal enhancements */
+#jobsModal .projects-modal__dialog {
+    background: rgba(24, 24, 24, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+#jobsModal .resume-content {
+    font-size: 1.02rem;
+    line-height: 1.8;
+}
+
+#jobsModal .resume-section {
+    padding: 6px 0 10px;
+}
+
+#jobsModal .resume-role {
+    font-weight: 600;
+}
+
+#jobsModal .resume-period {
+    opacity: .85;
+    font-size: .95rem;
+}
+
+#jobsModal .resume-accordion details {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #101010;
+    border-radius: 12px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#jobsModal .resume-accordion summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+#jobsModal .resume-accordion summary::-webkit-details-marker { display: none; }
+
+#jobsModal .resume-accordion summary::after {
+    content: '▾';
+    opacity: .85;
+    transition: transform .2s ease;
+}
+
+#jobsModal .resume-accordion details[open] summary::after {
+    transform: rotate(180deg);
+}
+
+#jobsModal .resume-list {
+    margin: 0;
+    padding: 8px 22px 14px 26px;
+    line-height: 1.7;
+}
+
+#jobsModal .resume-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    margin: 4px 0 0 0;
+}
+
+#jobsModal .resume-skills li { list-style: none; }
+
+#jobsModal .chip {
+    background: #151515;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    padding: 6px 10px;
+}
+
+#jobsModal .resume-accordion details:focus-within,
+#jobsModal .resume-accordion summary:focus-visible {
+    outline: 2px solid #536dff;
+    outline-offset: 2px;
+    border-radius: 10px;
+}
+
+/* Subtle modal pop animation (applies to all modals) */
+.projects-modal[aria-hidden="false"] .projects-modal__dialog {
+    animation: modal-pop .24s ease-out;
+}
+
+@keyframes modal-pop {
+    from { transform: translateY(6px) scale(.98); opacity: 0; }
+    to   { transform: translateY(0)  scale(1);   opacity: 1; }
+}
+
+/* Scrollbar polish inside modal content */
+.projects-modal__dialog::-webkit-scrollbar { width: 10px; }
+.projects-modal__dialog::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 10px;
+}
+.projects-modal__dialog:hover::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.24);
+}
+
+@media (max-width: 520px) {
+    #jobsModal .resume-accordion summary {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+    #jobsModal .resume-period { font-size: .9rem; opacity: .75; }
+}
