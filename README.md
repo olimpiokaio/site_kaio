@@ -1,18 +1,35 @@
-# Meu Site — Deploy para GitHub
+# Meu Site — Deploy para GitHub e GitHub Pages
 
-Este projeto contém um pequeno script para facilitar o envio (push) do código para o repositório GitHub solicitado: `https://github.com/olimpiokaio/site_kaio.git`.
+Este projeto contém um pequeno script para facilitar o envio (push) do código para o repositório GitHub solicitado: `https://github.com/olimpiokaio/site_kaio.git`. Também está preparado para publicar o site no GitHub Pages automaticamente via GitHub Actions.
 
 ## Pré‑requisitos
 - Git instalado: https://git-scm.com/downloads
 - Acesso ao repositório do GitHub via HTTPS (com usuário/senha ou token) ou via SSH (com chave configurada).
 
-## Opção 1: Usando o script automático
+## Publicar no GitHub Pages (automático via Actions)
 
-1. Dê permissão de execução ao script (apenas uma vez):
+Já existe um workflow em `.github/workflows/pages.yml` que publica este site estatico no GitHub Pages sempre que houver push na branch `main`.
+
+URL esperada (Project Pages):
+- https://olimpiokaio.github.io/site_kaio/
+
+Passos:
+1. Faça commit e push para a branch `main` deste repositório.
+2. Acesse o repositório no GitHub > Actions e aguarde a execução "Deploy static site to GitHub Pages" finalizar com sucesso.
+3. Vá em Settings > Pages e confirme que a publicação está ativa. O GitHub cria o ambiente "github-pages" automaticamente quando o workflow roda a primeira vez.
+4. Acesse a URL acima. Caso veja 404 logo após o deploy, aguarde 1-2 minutos para a propagação do Pages.
+
+Observações:
+- Um arquivo `.nojekyll` foi adicionado para evitar que o Jekyll interfira em pastas/arquivos (especialmente se começarem com `_`).
+- Todos os caminhos no HTML/CSS/JS estão relativos (ex.: `./images/olk_2.png`), compatíveis com Project Pages.
+
+## Opção 1: Usando o script automatico para dar push
+
+1. D permissão de execução ao script (apenas uma vez):
    ```bash
    chmod +x ./deploy_to_github.sh
    ```
-2. Execute o script (usa por padrão o repositório e a branch `main`):
+2. Execute o script (usa por padro o repositório e a branch `main`):
    ```bash
    ./deploy_to_github.sh
    ```
@@ -31,7 +48,7 @@ O script fará:
 - `git fetch` e merge (se o remoto já tiver histórico)
 - `git push -u origin <branch>`
 
-## Opção 2: Passos manuais
+## Opção 2: Passos manuais para dar push
 
 Caso prefira fazer manualmente, no diretório do projeto rode:
 
@@ -58,4 +75,4 @@ Resolva conflitos se houver, faça `git commit`, e em seguida `git push`.
 ## Dicas
 - Para HTTPS com 2FA, use um Personal Access Token como senha: https://github.com/settings/tokens
 - Para SSH, configure sua chave pública: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
-- Para atualizar mudanças futuras: faça alterações, `git add -A`, `git commit -m "msg"` e `git push`.
+- Para atualizar mudanças futuras: faça alterações, `git add -A`, `git commit -m "msg"` e `git push`. O Pages será republicado automaticamente.
