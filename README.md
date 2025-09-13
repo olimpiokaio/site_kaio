@@ -20,6 +20,7 @@ Passos:
 4. Acesse a URL acima. Caso veja 404 logo após o deploy, aguarde 1-2 minutos para a propagação do Pages.
 
 Observações:
+- O workflow agora habilita automaticamente o GitHub Pages na primeira execução (configure-pages com `enablement: enabled`). Caso prefira, também é possível habilitar manualmente em Settings > Pages, selecionando “Build and deployment: GitHub Actions”.
 - Um arquivo `.nojekyll` foi adicionado para evitar que o Jekyll interfira em pastas/arquivos (especialmente se começarem com `_`).
 - Todos os caminhos no HTML/CSS/JS estão relativos (ex.: `./images/olk_2.png`), compatíveis com Project Pages.
 
